@@ -10,66 +10,117 @@ export const Certifications = () => (
       <h1>Certifications</h1>
       <WorkExpWrapper>
         <Details>
-          <h3>The Complete 2020 Flutter Development Bootcamp with Dart</h3>
+          <h3>AWS Certified Solutions Architect – Associate</h3>
           <h6>
-            Udemy
+            AWS
             <br />
-            Issued: Jun 2020
+            Issued: Aug 2022
             <br />
-            Credential ID: UC-bc63e90b-226d-42c5-9e81-2f996d53430b
-          </h6>
-          <a
-            href="https://ude.my/UC-bc63e90b-226d-42c5-9e81-2f996d53430b"
+            Credential ID: <a
+            href="https://www.credly.com/badges/66e5b509-f48d-48bf-8a6e-be90aa618dc0/linked_in_profile"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <p>See credential</p>
-          </a>
+          ><span className="credential">3PFG8TB2S211QDW8</span></a>
+          </h6>
+
+          <h3>Microsoft Certified: Azure Fundamentals</h3>
+          <h6>
+            Microsoft
+            <br />
+            Issued: May 2021
+            <br />
+            Credential ID: <a
+            href="https://www.credly.com/badges/b6201b53-e960-4300-a564-f50827463fcd?source=linked_in_profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><span className="credential">H826-0508</span></a>
+          </h6>
+          
+
+
+          <h3>
+            Site Reliability Engineering: Measuring and Managing Reliability
+          </h3>
+          <h6>
+            Coursera
+            <br />
+            Issued: Aug 2021
+            <br />
+            Credential ID: <a
+            href="https://www.coursera.org/account/accomplishments/verify/HTR5FWFBCDWG"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><span className="credential">HTR5FWFBCDWG</span></a>
+          </h6>
+
+          <h3>The Bits and Bytes of Computer Networking</h3>
+          <h6>
+            Coursera
+            <br />
+            Issued: Jan 2023
+            <br />
+            Credential ID: <a
+            href="https://www.coursera.org/account/accomplishments/certificate/GWNA32Y3MSXV"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><span className="credential">GWNA32Y3MSXV</span></a>
+          </h6>
+
           <h3>Python for Everybody Specialization</h3>
           <h6>
             Coursera
             <br />
             Issued: May 2020
             <br />
-            Credential ID: H2WJPG6QFC93
-          </h6>
-          <a
+            Credential ID: <a
             href="https://www.coursera.org/account/accomplishments/specialization/certificate/H2WJPG6QFC93"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <p>See credential</p>
-          </a>
-          <h3> Modern React with Redux</h3>
-          <h6>
-            Udemy
-            <br />
-            Issued: Sep 2019
-            <br />
-            Credential ID: UC-NWVLNXMA
+          ><span className="credential">H2WJPG6QFC93</span></a>
           </h6>
-          <a
-            href="https://ude.my/UC-NWVLNXMA"
+
+          <h3>Problem Solving</h3>
+          <h6>
+            HackerRank
+            <br />
+            Issued: Sep 2020
+            <br />
+            Credential ID: <a
+            href="https://www.hackerrank.com/certificates/5e040381ff91"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <p>See credential</p>
-          </a>
-          <h3> The Complete Node.js Developer Course</h3>
-          <h6>
-            Udemy
-            <br />
-            Issued: May 2019
-            <br />
-            Credential ID: UC-2R80WVP3
+          ><span className="credential">5e040381ff91</span></a>
           </h6>
-          <a
-            href="https://ude.my/UC-2R80WVP3"
+         
+         
+         
+          <h3>Scrum Team Member</h3>
+          <h6>
+            Scrum Inc
+            <br />
+            Issued: July 2021
+            <br />
+            Credential ID: <a
+            href="https://s3.amazonaws.com/scruminc-certs/7bc3d86c-361a-46af-a7e5-df11f5e0755a"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <p>See credential</p>
-          </a>
+          ><span className="credential">7bc3d86c-361a-46af-a7e5-df11f5e0755a</span></a>
+          </h6>
+        
+
+          <h3>Verified International Academic Qualifications</h3>
+          <h6>
+            World Education Services
+            <br />
+            Issued: Aug 2021
+            <br />
+            Credential ID: <a
+            href="https://www.credly.com/badges/efd9fc34-9532-4344-a3f3-0d69fb8e9dd7?source=linked_in_profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          ><span className="credential">efd9fc34-9532-4344-a3f3-0d69fb8e9dd7</span></a>
+          </h6>
+         
         </Details>
         <Thumbnail>
           <img

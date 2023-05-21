@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-padding-top: 1rem;
+  padding-top: 1rem;
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -23,13 +23,18 @@ export const WorkExpWrapper = styled.div`
   h6 {
     color: #586069;
     font-weight: 200;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 `;
 
 export const Details = styled.div`
   flex: 1;
   padding-right: 2rem;
+
+
+  .credential {
+    color: #392eff !important;
+  }
 
   @media (max-width: 960px) {
     padding-right: unset;
@@ -47,6 +52,4 @@ export const Thumbnail = styled.div`
   @media (max-width: 960px) {
     width: 100%;
   }
-  display: block;
-  margin: auto;
 `;

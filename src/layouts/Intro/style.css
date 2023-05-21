@@ -13,6 +13,11 @@
   transform-origin: 70% 70%;
 }
 
+.sde {
+  color: #572b8b;
+  font-weight: bold;
+}
+
 .bg-main {
   position: relative;
   display: table;

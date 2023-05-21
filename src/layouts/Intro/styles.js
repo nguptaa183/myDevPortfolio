@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const IntroWrapper = styled.div`
   justify-content: space-between;
@@ -21,8 +21,13 @@ export const Details = styled.div`
   h1 {
     font-size: 3rem;
   }
+  h2 {
+    margin: 0 !important;
+  }
 
   h3 {
+    margin-bottom: 0.5rem !important;
+
     font-size: 2rem;
     color: #586069;
   }

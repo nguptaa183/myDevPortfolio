@@ -3,10 +3,11 @@ import {
   Skills,
   Contact,
   WorkExp,
+  Projects,
   Certifications,
+  Education,
 } from "../layouts";
 
-import Projects from "../layouts/Projects";
 import { Layout, SEO } from "../components";
 
 function Landing() {
@@ -15,6 +16,7 @@ function Landing() {
       <SEO />
       <Intro />
       <Projects />
+      <Education />
       <WorkExp />
       <Skills />
       <Certifications />

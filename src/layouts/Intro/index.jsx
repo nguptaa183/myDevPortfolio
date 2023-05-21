@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Header } from "../Header";
 import { Container, Button } from "../../components";
@@ -9,16 +9,23 @@ import { IntroWrapper, Details, Thumbnail } from "./styles";
 import "./style.css";
 
 export const Intro = () => {
-  let greeting = "";
-  const date = new Date();
-  const hour = date.getHours();
-  if (hour < 12) {
-    greeting = "Good Morning";
-  } else if (hour >= 12 && hour < 17) {
-    greeting = "Good Afternoon";
-  } else if (hour >= 17 && hour < 24) {
-    greeting = "Good Evening";
-  }
+  const [greeting, setGreeting] = useState("");
+
+  useEffect(() => {
+    getGreeting();
+  }, [greeting]);
+
+  const getGreeting = () => {
+    const date = new Date();
+    const hour = date.getHours();
+    if (hour < 12) {
+      setGreeting("Good Morning");
+    } else if (hour >= 12 && hour < 17) {
+      setGreeting("Good Afternoon");
+    } else if (hour >= 17 && hour < 24) {
+      setGreeting("Good Evening");
+    }
+  };
 
   return (
     <Fade bottom duration={1000} distance="40px">
@@ -32,15 +39,16 @@ export const Intro = () => {
                 <span className="wave-emoji">
                   <span className="wave">👋</span>
                 </span>
-                <br />
-                <h1>I'm Nikhil.</h1>
               </h2>
+
+              <h1>I'm Nikhil.</h1>
               <h3>{greeting}!</h3>
               <p>
-                I am a Full Stack developer with industry experience building
-                websites and web applications. My field of interest includes but
-                not limited to Web Development, Scalability, Machine
-                Learning/AI, Data Science.
+                I'm a <span className="sde">Software Engineer</span> passionate
+                about technology and innovation, striving to contribute to
+                humankind through robust applications and solutions by pairing
+                up with similar mindset people; leveraging problem solving and
+                technical skills.
               </p>
               <div className="button-greeting-div">
                 <a href="mailto:hire@aayannikhil.com">

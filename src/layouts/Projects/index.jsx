@@ -7,7 +7,7 @@ import repoIcon from "../../assets/icons/repo.svg";
 import { Fade } from "react-awesome-reveal";
 import { Wrapper, Grid, Item, Content, Stats } from "./styles";
 
-function Projects() {
+export const Projects = () => {
   const [githubUserData, setgithubUserData] = useState({});
 
   useEffect(() => {
@@ -124,5 +124,4 @@ function Projects() {
       </Wrapper>
     </Fade>
   );
-}
-export default Projects;
+};
