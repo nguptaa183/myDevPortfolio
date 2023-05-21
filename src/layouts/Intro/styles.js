@@ -12,7 +12,7 @@ export const IntroWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
-  padding-right: 2rem;
+
   div.button-greeting-div {
     display: flex;
     margin-top: 15px;

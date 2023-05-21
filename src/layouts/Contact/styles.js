@@ -19,9 +19,9 @@ export const ContactWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
-
+  padding-left: 2rem;
   @media (max-width: 960px) {
-    padding-right: unset;
+    padding-left: unset;
     width: 100%;
     order: 1;
   }
@@ -43,7 +43,6 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
 flex: 1;
-padding-right: 2rem;
 
 img {
   max-width: 100%;
