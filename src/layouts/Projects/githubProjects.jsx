@@ -6,7 +6,7 @@ import forkIcon from "../../assets/icons/fork.svg";
 import repoIcon from "../../assets/icons/repo.svg";
 import { Fade } from "react-awesome-reveal";
 import { Wrapper, Grid, Item, Content, Stats } from "./styles";
-import { githubUsername } from "../../constants/userInfo";
+import { githubUsername } from "../../constants/userData/projects";
 
 export const GithubProjects = () => {
   const [githubUserData, setgithubUserData] = useState({});

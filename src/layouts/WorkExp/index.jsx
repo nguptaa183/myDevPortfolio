@@ -9,7 +9,7 @@ import {
   Details,
   WorkDetails,
 } from "./styles";
-import { experiences } from "../../constants/userInfo";
+import { experiences } from "../../constants/userData/experience";
 
 export const WorkExp = () => (
   <Fade bottom duration={1000} distance="20px">

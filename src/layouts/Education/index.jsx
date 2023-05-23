@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../../components";
 import { Fade } from "react-awesome-reveal";
 import { Wrapper, EduWrapper, Logo, Details } from "./styles";
-import { education } from "../../constants/userInfo";
+import { education } from "../../constants/userData/education";
 
 export const Education = () => (
   <Fade bottom duration={1000} distance="20px">

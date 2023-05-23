@@ -9,7 +9,8 @@ import {
   Thumbnail,
 } from "./styles";
 import certification from "../../assets/illustrations/certification.svg";
-import { certifications, imageAlt } from "../../constants/userInfo";
+import { certifications } from "../../constants/userData/certification";
+import { imageAlt } from "../../constants/userData/basicInfo";
 
 export const Certifications = () => (
   <Fade bottom duration={1000} distance="20px">

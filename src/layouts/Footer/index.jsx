@@ -2,7 +2,8 @@ import React from "react";
 import { Container } from "../../components";
 import { Fade } from "react-awesome-reveal";
 import { Wrapper, Flex, Links, Details } from "./styles";
-import { legalName, social } from "../../constants/userInfo";
+import { legalName } from "../../constants/userData/basicInfo";
+import { social } from "../../constants/userData/social";
 
 export const Footer = () => (
   <Fade bottom duration={1000} distance="20px">

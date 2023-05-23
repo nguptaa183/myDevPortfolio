@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Card, Button } from "../../components";
+import { Container, Card } from "../../components";
 import repoIcon from "../../assets/icons/repo.svg";
 import { Fade } from "react-awesome-reveal";
 import { Wrapper, Grid, Item, Content } from "./styles";
-import { projects } from "../../constants/userInfo";
+import { projects } from "../../constants/userData/projects";
 
 export const CustomProjects = () => {
   return (

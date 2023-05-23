@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Container } from "../../../components";
 import NavbarLinks from "../NavbarLinks";
 import { Wrapper } from "./styles";
-import { legalName } from "../../../constants/userInfo";
+import { legalName } from "../../../constants/userData/basicInfo";
 
 const Navbar = () => (
   <Wrapper as={Container}>

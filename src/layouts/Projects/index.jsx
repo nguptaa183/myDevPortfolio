@@ -1,4 +1,4 @@
-import { useGithubProjects } from "../../constants/userInfo";
+import { useGithubProjects } from "../../constants/userData/projects";
 import { GithubProjects } from "./githubProjects";
 import { CustomProjects } from "./customProjects";
 

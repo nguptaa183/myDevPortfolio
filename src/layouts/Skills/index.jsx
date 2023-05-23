@@ -3,7 +3,8 @@ import { Container } from "../../components";
 import skill from "../../assets/illustrations/skill.svg";
 import { Fade } from "react-awesome-reveal";
 import { Wrapper, SkillsWrapper, Details, Thumbnail } from "./styles";
-import { imageAlt, skills } from "../../constants/userInfo";
+import { skills } from "../../constants/userData/skills";
+import { imageAlt } from "../../constants/userData/basicInfo";
 
 export const Skills = () => (
   <Fade bottom duration={1000} distance="20px">

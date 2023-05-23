@@ -5,7 +5,7 @@ import { Container, Button } from "../../components";
 import intro from "../../assets/illustrations/intro.svg";
 import { Fade } from "react-awesome-reveal";
 import { IntroWrapper, Details, Thumbnail } from "./styles";
-import { firstName, aboutMe, hireEmail, resumeLink, imageAlt } from "../../constants/userInfo";
+import { firstName, aboutMe, hireEmail, resumeLink, imageAlt } from "../../constants/userData/basicInfo";
 import "./style.css";
 
 export const Intro = () => {
