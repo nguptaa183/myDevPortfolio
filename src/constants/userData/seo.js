@@ -1,7 +1,7 @@
 // SEO
 export const googleAnalyticsID = "G-C6BXHN2JEJ";
 export const themeColor = "#6b63ff";
-export const backgroundColor = "#6b63ff";
+export const backgroundColor = "#ffffff";
 export const socialSEO = {
   facebook: "nguptaa183",
   twitter: "@ngupta183",

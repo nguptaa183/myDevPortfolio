@@ -7,6 +7,7 @@ import {
   contact,
   foundingDate,
   socialLinks,
+  themeColor,
 } from "../../constants/userData/seo";
 
 import {
@@ -15,7 +16,6 @@ import {
   legalName,
   url,
   logo,
-  favicon,
 } from "../../constants/userData/basicInfo";
 
 export const SEO = ({
@@ -61,6 +61,8 @@ export const SEO = ({
     <Helmet>
       <meta name="description" content={description} />
       <meta name="image" content={Thumbnail} />
+      <meta name="title" content={title} />
+      <meta name="theme-color" content={themeColor} />
 
       <meta
         property="og:url"
@@ -80,7 +82,6 @@ export const SEO = ({
       <meta name="twitter:image:src" content={Thumbnail} />
       <script type="application/ld+json">{structuredDataOrganization}</script>
       <link rel="publisher" href={socialLinks.linkedin} />
-      <link rel="icon" href={favicon} />
       <title>{title}</title>
       <html lang="en" dir="ltr" />
     </Helmet>
