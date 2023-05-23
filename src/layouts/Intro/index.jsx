@@ -3,9 +3,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Header } from "../Header";
 import { Container, Button } from "../../components";
 import intro from "../../assets/illustrations/intro.svg";
-import Resume from "../../assets/Resume/Nikhil_Gupta_Resume.pdf";
 import { Fade } from "react-awesome-reveal";
 import { IntroWrapper, Details, Thumbnail } from "./styles";
+import { firstName, aboutMe, hireEmail, resumeLink, imageAlt } from "../../constants/userInfo";
 import "./style.css";
 
 export const Intro = () => {
@@ -41,20 +41,18 @@ export const Intro = () => {
                 </span>
               </h2>
 
-              <h1>I'm Nikhil.</h1>
+              <h1>I'm {firstName}.</h1>
               <h3>{greeting}!</h3>
               <p>
-                I'm a <span className="sde">Software Engineer</span> passionate
-                about technology and innovation, striving to contribute to
-                humankind through robust applications and solutions by pairing
-                up with similar mindset people; leveraging problem solving and
-                technical skills.
+                {aboutMe.firstPart}
+                <span className="sde">{aboutMe.middlePart}</span>{" "}
+                {aboutMe.lastPart}
               </p>
               <div className="button-greeting-div">
-                <a href="mailto:hire@aayannikhil.com">
+                <a href={hireEmail}>
                   <Button>Hire Me</Button>
                 </a>
-                <a href={Resume} target="_blank" rel="noopener noreferrer">
+                <a href={resumeLink} target="_blank" rel="noopener noreferrer">
                   <Button>Resume</Button>
                 </a>
               </div>
@@ -62,7 +60,7 @@ export const Intro = () => {
             <Thumbnail>
               <img
                 src={intro}
-                alt="I’m Nikhil and I’m a Full Stack developer!"
+                alt={imageAlt}
               />
             </Thumbnail>
           </IntroWrapper>

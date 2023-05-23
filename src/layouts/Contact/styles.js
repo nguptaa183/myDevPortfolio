@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   @media (max-width: 960px) {
@@ -19,6 +19,7 @@ export const ContactWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
+  margin: auto;
   padding-left: 2rem;
   @media (max-width: 960px) {
     padding-left: unset;
@@ -42,15 +43,15 @@ export const Details = styled.div`
 `;
 
 export const Thumbnail = styled.div`
-flex: 1;
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-@media (max-width: 960px) {
-  width: 100%;
-}
-display: block;
-margin: auto;
+  flex: 1;
+  margin: auto;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+  display: block;
+  margin: auto;
 `;

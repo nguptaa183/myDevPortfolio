@@ -4,7 +4,7 @@ import Thumbnail from "../../assets/thumbnail/thumbnail.png";
 import {
   url,
   defaultDescription,
-  social,
+  socialSEO,
   defaultTitle,
   socialLinks,
   address,
@@ -12,6 +12,7 @@ import {
   legalName,
   foundingDate,
   logo,
+  favicon,
 } from "../../constants/userInfo";
 
 export const SEO = ({
@@ -49,6 +50,7 @@ export const SEO = ({
 			"${socialLinks.github}",
 			"${socialLinks.linkedin}",
 			"${socialLinks.instagram}",
+			"${socialLinks.stackoverflow}",
 		]
   	}`;
 
@@ -59,21 +61,23 @@ export const SEO = ({
 
       <meta
         property="og:url"
-        content={`${url}${location}/?ref=aayannikhil.com`}
+        content={`${url}${location}/?ref=nikhilgupta.me`}
       />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={Thumbnail} />
-      <meta property="fb:app_id" content={social.facebook} />
+      <meta property="fb:app_id" content={socialSEO.facebook} />
 
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={socialLinks.twitter} />
-      <meta name="twitter:site" content={social.twitter} />
+      <meta name="twitter:site" content={socialSEO.twitter} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image:src" content={Thumbnail} />
       <script type="application/ld+json">{structuredDataOrganization}</script>
+      <link rel="publisher" href={socialLinks.linkedin} />
+      <link rel="icon" href={favicon} />
       <title>{title}</title>
       <html lang="en" dir="ltr" />
     </Helmet>

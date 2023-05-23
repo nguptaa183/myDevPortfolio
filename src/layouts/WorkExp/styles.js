@@ -30,6 +30,8 @@ export const WorkExpWrapper = styled.div`
   }
 `;
 
+export const WorkExpItem = styled.div``;
+
 export const Logo = styled.div`
   img {
     height: 3.25rem;
@@ -55,10 +57,11 @@ export const Details = styled.div`
 export const WorkDetails = styled.div`
   padding-left: 4rem;
   text-align: left;
-  li{
-    margin: 0 !important;
+  li {
+    margin-bottom: 0 !important;
   }
   @media (max-width: 960px) {
     padding-left: 0 !important;
+    margin-top: 0.5rem !important;
   }
 `;

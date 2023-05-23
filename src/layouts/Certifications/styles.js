@@ -27,10 +27,12 @@ export const WorkExpWrapper = styled.div`
   }
 `;
 
+export const CertificationItem = styled.div``;
+
 export const Details = styled.div`
   flex: 1;
+  margin: auto;
   padding-right: 2rem;
-
 
   .credential {
     color: #392eff !important;
@@ -45,6 +47,7 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
+  margin: auto;
   img {
     max-width: 100%;
     height: auto;

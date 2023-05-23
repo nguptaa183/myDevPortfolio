@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Wrapper = styled.div`
   @media (max-width: 960px) {
@@ -20,6 +20,7 @@ export const SkillsWrapper = styled.div`
 
 export const Details = styled.div`
   flex: 1;
+  margin: auto;
   padding-left: 2rem;
 
   ul {
@@ -35,13 +36,6 @@ export const Details = styled.div`
     text-align: center;
   }
 
-  i {
-    color: #868e96;
-  }
-
-  i:hover {
-    color: #572b8b;
-  }
   p {
     color: #868e96;
     font-size: 10px;
@@ -64,7 +58,7 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
   flex: 1;
-
+  margin: auto;
   @media (max-width: 960px) {
     width: 100%;
     margin-bottom: 2rem;
