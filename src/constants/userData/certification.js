@@ -26,10 +26,19 @@ export const certifications = [
     issuedDate: "Aug 2021",
     credentialID: "HTR5FWFBCDWG",
     credentialLink:
-      "https://www.coursera.org/account/accomplishments/verify/HTR5FWFBCDWG",
+      "https://www.coursera.org/account/accomplishments/certificate/HTR5FWFBCDWG",
   },
   {
     id: 4,
+    certificationName: "Machine Learning Specialization",
+    issuedBy: "Coursera",
+    issuedDate: "Jun 2023",
+    credentialID: "YMU5EDPT2NCZ",
+    credentialLink:
+      "https://www.coursera.org/account/accomplishments/specialization/certificate/YMU5EDPT2NCZ",
+  },
+  {
+    id: 5,
     certificationName: "The Bits and Bytes of Computer Networking",
     issuedBy: "Coursera",
     issuedDate: "Jan 2023",
@@ -38,7 +47,7 @@ export const certifications = [
       "https://www.coursera.org/account/accomplishments/certificate/GWNA32Y3MSXV",
   },
   {
-    id: 5,
+    id: 6,
     certificationName: "Python for Everybody Specialization",
     issuedBy: "Coursera",
     issuedDate: "May 2020",
@@ -47,7 +56,7 @@ export const certifications = [
       "https://www.coursera.org/account/accomplishments/specialization/certificate/H2WJPG6QFC93",
   },
   {
-    id: 6,
+    id: 7,
     certificationName: "Problem Solving",
     issuedBy: "HackerRank",
     issuedDate: "Sep 2020",
@@ -55,7 +64,7 @@ export const certifications = [
     credentialLink: "https://www.hackerrank.com/certificates/5e040381ff91",
   },
   {
-    id: 7,
+    id: 8,
     certificationName: "Scrum Team Member",
     issuedBy: "Scrum Inc",
     issuedDate: "July 2021",
@@ -64,7 +73,7 @@ export const certifications = [
       "https://s3.amazonaws.com/scruminc-certs/7bc3d86c-361a-46af-a7e5-df11f5e0755a",
   },
   {
-    id: 8,
+    id: 9,
     certificationName: "Verified International Academic Qualifications",
     issuedBy: "World Education Services",
     issuedDate: "Aug 2021",
