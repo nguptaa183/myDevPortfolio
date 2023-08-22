@@ -16,4 +16,4 @@ export const aboutMe = {
 };
 export const hireEmail = "mailto:hire@nikhilgupta.me";
 export const resumeLink =
-  "https://drive.google.com/file/d/1X-WQL3mG9h_KdgrtWoPfIEHOT4a4lmrV/view?usp=sharing";
+  "https://drive.google.com/file/d/1zvygiTeIARQVFkfCHvUTtVa5QRGailz1/view?usp=sharing";
