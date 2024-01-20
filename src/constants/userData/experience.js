@@ -11,11 +11,14 @@ export const experiences = [
     city: "Pune",
     country: "India",
     description: [
-      "Assisted various organizations’ teams in migrating their applications and data from private(on-prem) to public clouds(AWS & Azure), reducing operational costs by 20% and supporting cloud operations post-migration.",
-      "Developed cloud complexity calculator Web application that calculates migration complexity and categorizes them into low, medium, and high which helps us to get tentative efforts needed to complete the migration.",
-      "Worked on Instance scheduler POC, a solution that reduces operational costs by configuring start and stop schedules for Amazon EC2 and Amazon RDS instances. Also, implemented it across a few application teams for cost savings.",
-      "Created data visualization dashboards using Power BI and Grafana to track cloud activities like funding, approved/ongoing projects, and certifications that saved stakeholders significant time.",
-      "Collaborated with teams across multiple regions for Site Reliability Engineering(SRE) implementation on multiple domains and also conducted a few SRE workshops within the team.",
+      "Assisted various organizations' teams in migrating applications and data from private(on-prem) to public clouds(AWS & Azure), reducing operational costs by 20% and supporting cloud operations post-migration.",
+      "Designed and developed a cloud complexity calculator, categorizing migration complexity and streamlining planning; cutting down migration timelines by 30% and optimizing resource allocation by accurately identifying project requirements.",
+      "Executed and deployed an Instance scheduler Proof of Concept (POC) to optimize operational costs by setting timely schedules for Amazon EC2 and Amazon RDS instances across multiple application teams, resulting in 20% cost savings.",
+      "Scripted a Jenkins job for automating volume full issues, triggering alerts when storage surpasses 80%. Also, automated the Worksoft Certify process for SAP teams with PowerShell scripts, improving workflow efficiency.",
+      "Created Power BI and Grafana dashboards for real-time monitoring of cloud activities, including funding, projects, and certifications. Boosted stakeholder efficiency by providing immediate insights, saving time.",
+      "Led cross-regional SRE implementation across domains, decreasing system downtime by 30%. Conducted workshops leading to a 20% faster incident resolution and a 15% decrease in mean time to recovery (MTTR).",
+      "Implemented Backstage, Software Catalog, and Developer Platform frameworks across various platforms, streamlining developer workflows and enhancing collaboration.",
+      "Executed testing and deployment of multiple AWS CloudFormation and Terraform templates, ensuring seamless and reliable setup of infrastructure components.",
     ],
   },
   {
@@ -28,9 +31,8 @@ export const experiences = [
     city: "Bangalore",
     country: "India",
     description: [
-      "Worked on microservice architecture and built cache service API for frequently accessed data that decreased the fetch/compute time for data retrieval achieving a cache hit ratio of over 90%.",
-      "Integrated Consul services for a health checkup and service discovery in a few services.",
-      "Contributed to API’s documentation of different microservices used using Swagger API tools.",
+      "Built and documented cache microservice API for frequently accessed data; decreasing fetch/compute time for data retrieval and achieving a cache hit ratio of over 90%.",
+      "Implemented Consul services to conduct health checkups and enable seamless service discovery; enhancing system reliability, and reducing downtime by 15% through proactive issue identification.",
     ],
   },
 ];
