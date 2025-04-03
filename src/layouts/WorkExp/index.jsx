@@ -32,13 +32,13 @@ export const WorkExp = () => (
                 </h6>
               </Details>
             </WorkExpWrapper>
-            <WorkDetails>
+            {/* <WorkDetails>
               <ul type="square">
                 {item.description.map((desItem) => (
                   <li key={desItem}>{desItem}</li>
                 ))}
               </ul>
-            </WorkDetails>
+            </WorkDetails> */}
           </WorkExpItem>
         ))
       ) : (
