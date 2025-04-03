@@ -7,7 +7,7 @@ export const firstName = "Nikhil";
 export const profession = "Software Engineer";
 export const imageAlt = "I’m Nikhil, and I’m a Software Engineer";
 export const defaultDescription =
-  "I'm a Software Engineer passionate about technology and innovation, striving to contribute to humankind through robust applications and solutions by pairing up with similar mindset people; leveraging problem solving and technical skills.";
+  "Software Engineer with 3 years of experience in frontend, backend, and cloud development. Interested in distributed backend systems. Proficient in Python, Java backend development, system design, AWS.";
 export const aboutMe = {
   firstPart: "I'm a ",
   middlePart: "Software Engineer",
