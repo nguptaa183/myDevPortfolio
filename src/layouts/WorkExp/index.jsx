@@ -7,7 +7,7 @@ import {
   WorkExpItem,
   Logo,
   Details,
-  WorkDetails,
+  // WorkDetails,
 } from "./styles";
 import { experiences } from "../../constants/userData/experience";
 
