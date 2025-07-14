@@ -20,7 +20,9 @@ export const Education = () => (
                 <b>{item.degree}</b>
               </h6>
               <h6>
-                {item.dateFrom} - {item.dateTo} | {item.city}, {item.country}
+                {item.collegeName === "State University of New York at Buffalo"
+                  ? `${item.gpa} | ${item.dateFrom} - ${item.dateTo} | ${item.city}, ${item.country}`
+                  : `${item.dateFrom} - ${item.dateTo} | ${item.city}, ${item.country}`}
               </h6>
             </Details>
           </EduWrapper>

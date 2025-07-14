@@ -5,6 +5,7 @@ export const education = [
     collegeLogo: "/logos/colleges/UB.png",
     collegeName: "State University of New York at Buffalo",
     degree: "Masters of Science in Computer Science and Engineering",
+    gpa: "GPA: 3.8/4",
     dateFrom: "Aug 2023",
     dateTo: "Dec 2024",
     city: "Buffalo",
