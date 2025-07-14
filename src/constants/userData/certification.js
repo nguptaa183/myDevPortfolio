@@ -2,6 +2,15 @@
 export const certifications = [
   {
     id: 1,
+    certificationName: "IBM MQ Developer Essentials",
+    issuedBy: "IBM",
+    issuedDate: "June 2025",
+    credentialID: "4896a72d-842d-461e-be7d-d56ab6b9784e",
+    credentialLink:
+      "https://www.credly.com/badges/4896a72d-842d-461e-be7d-d56ab6b9784e/linked_in_profile",
+  },
+  {
+    id: 2,
     certificationName: "AWS Certified Solutions Architect – Associate",
     issuedBy: "AWS",
     issuedDate: "Aug 2022",
@@ -10,7 +19,7 @@ export const certifications = [
       "https://www.credly.com/badges/66e5b509-f48d-48bf-8a6e-be90aa618dc0/linked_in_profile",
   },
   {
-    id: 2,
+    id: 3,
     certificationName: "Microsoft Certified: Azure Fundamentals",
     issuedBy: "Microsoft",
     issuedDate: "May 2021",
@@ -19,7 +28,7 @@ export const certifications = [
       "https://www.credly.com/badges/b6201b53-e960-4300-a564-f50827463fcd?source=linked_in_profile",
   },
   {
-    id: 3,
+    id: 4,
     certificationName:
       "Site Reliability Engineering: Measuring and Managing Reliability",
     issuedBy: "Coursera",
@@ -29,7 +38,7 @@ export const certifications = [
       "https://www.coursera.org/account/accomplishments/certificate/HTR5FWFBCDWG",
   },
   {
-    id: 4,
+    id: 5,
     certificationName: "Machine Learning Specialization",
     issuedBy: "Coursera",
     issuedDate: "Jun 2023",
@@ -38,7 +47,7 @@ export const certifications = [
       "https://www.coursera.org/account/accomplishments/specialization/certificate/YMU5EDPT2NCZ",
   },
   {
-    id: 5,
+    id: 6,
     certificationName: "The Bits and Bytes of Computer Networking",
     issuedBy: "Coursera",
     issuedDate: "Jan 2023",
@@ -47,7 +56,7 @@ export const certifications = [
       "https://www.coursera.org/account/accomplishments/certificate/GWNA32Y3MSXV",
   },
   {
-    id: 6,
+    id: 7,
     certificationName: "Python for Everybody Specialization",
     issuedBy: "Coursera",
     issuedDate: "May 2020",
@@ -56,7 +65,7 @@ export const certifications = [
       "https://www.coursera.org/account/accomplishments/specialization/certificate/H2WJPG6QFC93",
   },
   {
-    id: 7,
+    id: 8,
     certificationName: "Problem Solving",
     issuedBy: "HackerRank",
     issuedDate: "Sep 2020",
@@ -64,7 +73,7 @@ export const certifications = [
     credentialLink: "https://www.hackerrank.com/certificates/5e040381ff91",
   },
   {
-    id: 8,
+    id: 9,
     certificationName: "Scrum Team Member",
     issuedBy: "Scrum Inc",
     issuedDate: "July 2021",
@@ -73,7 +82,7 @@ export const certifications = [
       "https://s3.amazonaws.com/scruminc-certs/7bc3d86c-361a-46af-a7e5-df11f5e0755a",
   },
   {
-    id: 9,
+    id: 10,
     certificationName: "Verified International Academic Qualifications",
     issuedBy: "World Education Services",
     issuedDate: "Aug 2021",
